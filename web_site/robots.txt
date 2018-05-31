@@ -1,0 +1,40 @@
+### BEGIN FILE ###
+#
+# allow-all
+#
+#
+# The use of robots or other automated means to access the eBay site
+# without the express permission of eBay is strictly prohibited.
+# Notwithstanding the foregoing, eBay may permit automated access to
+# access certain eBay pages but soley for the limited purpose of
+# including content in publicly available search engines. Any other
+ use of robots or failure to obey the robots exclusion standards set
+# forth at <http://www.robotstxt.org/ wc/ exclusion.html> is strictly
+# prohibited.
+# v3
+#
+
+User-agent: *
+# remova os diretorios desnecessários
+
+# Google AdSense - permitir o adsense em qualquer url
+User-agent: Mediapartners-Google*
+Disallow:
+Allow: /*
+# Google Image - permitir imagens
+User-agent: Googlebot-Image
+Disallow:
+Allow: /*
+# Internet Archiver Wayback Machine
+User-agent: ia_archiver
+Disallow: /
+# digg mirror
+User-agent: duggmirror
+Disallow: /
+# desativa backups
+User-agent: Googlebot 
+Disallow: /*.tgz$
+#Sitemap
+Sitemap: /sitemap.xml
+
+### END FILE ###
