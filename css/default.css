@@ -33,5 +33,5 @@ a,a:visited,a:hover,a:active{color:#a00;font-weight:bold;}
 #frm_contact input,#frm_contact textarea{float:left;width:300px;}
 #frm_contact #buttons {clear:both;float:left;width:100%;margin:10px auto;padding:0 0 0 130px;text-align:center;}
 #frm_contact #buttons input {width:100px;text-align:center;margin:0 5px;}
-#footer{clear:both;width:100%;margin:15px 0;padding:0;text-align:center;border-top:1px solid #9e9;color:#a00;}
+#footer{clear:both;width:100%;margin:15px 0;padding:0;text-align:center;border-top:1px solid #9e9;color:#a00;font-size:14px;}
 #footer p{margin:2px 15px;padding:0}
